@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw !important;
+    height: 100vh !important;
+    .container{
+        height: 100vh;
+        display: flex;
+        padding-top: 75px;
+        // display: flex;
+        // align-items: center !important;
+        // justify-content: center !important;
+    }
+    .d1{
+        height: 100%;
+    }
+    .d2{
+        position: absolute;
+        padding: 100px !important;
+        width: 42.8%;
+        background-color: blue;
+    }
+    .d3{
+        background-color: rgb(202, 202, 202);
+    }
+    .d5{
+        height: 597.7px;
+        background-color: blue;
+        margin-left: -2px;
+        display: grid;
+        place-items: center !important;
+    }
+    input{
+        outline: none;
+        padding-left: 10px;
+    }
+    // div{
+    //     border: 1px solid black;
+    // }
+}
